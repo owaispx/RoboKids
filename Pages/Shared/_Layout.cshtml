@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - new_preject_ASP.net</title>
+
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div class="navbar">
+
+                <div class="title">
+
+                    <img src="images\\robokids.png" width="250" />
+                </div>
+
+
+                <div class="navleft">
+                    <ul>
+                        <li> <a href="home.html"> HOME  </a></li>
+                        <li> <a href="home.html"> COURSES </a></li>
+                        <li> <a href="home.html"> COMPETITIONS </a></li>
+                        <li> <a href="home.html"> CAMPS & PARTIES </a></li>
+                        <li>  <a href="/Administration"> ADMINISTRATION </a></li>
+                        <li><a href="home.html"> CONTACT </a> </li>
+                        <li class="btn"><a href="/log-in"> Log in </a> </li>
+                        <li class="btn"><a href="/Signup"> Sign up </a> </li>
+                    </ul>
+                   
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+ 
+    <div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			<img src="~/images/fotphoto.png" />
+		</div>
+        <div class="txt">
+            <p>Children will have the opportunity to create with robotic design systems
+                from VEX® Robotics, K'NEX Computer Control Set and LEGO® Mindstorms®Children will 
+                have the opportunity to create with robotic 
+                design systems from VEX® Robotics, K'NEX Computer Control Set and LEGO® Mindstorms®</p> <br/>
+            <p> 
+                LEGO® and Mindstorms® are registered trademarks of the LEGO® group of companies.
+                VEX® and VEX® Robotics are trademarks or service marks of Innovation First International Inc. 
+                FIRST® is an international youth organization.
+                These companies do not sponsor, authorize or endorse the programs on this website.
+            </p>
+
+        </div>
+	</footer>
+
+
+
+
+
+	<script src="~/js/site.js" asp-append-version="true"></script>
+
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

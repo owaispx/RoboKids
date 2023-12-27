@@ -1,0 +1,28 @@
+﻿@page
+@model new_preject_ASP.net.Pages.SignupModel
+@{
+}
+   
+ <form class="s_form" method="post">
+	<div class="headding"> 
+		@if(Model.errorMessage.Length > 0)
+		{
+		 <div>  <strong>@Model.errorMessage</strong>  </div>
+		}
+		<img src="~/images/robokids.png" />
+		<h2> Create new account</h2>
+	</div>
+	<div class="boidata"> 
+		<label class="form-label">First Name</label><br>
+		<input class="form-input" type="text" placeholder="Enter first name" required name="FirstName" value="@Model.userinfo.firstname" ><br>
+		<label class="form-label">Last Name</label><br>
+		<input class="form-input" type="text" placeholder="Enter Last Name" required name="LastName"  value="@Model.userinfo.lastname" ><br>
+		<label class="form-label">Email</label><br>
+		<input class="form-input" type="email" placeholder="Enter Your Email" required name="Email" value="@Model.userinfo.email"  ><br>
+		<label class="form-label">Password</label><br>
+		<input class="form-input" type="password" placeholder="Enter Your password" required name="Password" value="@Model.userinfo.password" ><br>
+	</div>
+	<div class="battan">
+		<button type="submit">Register</button> 
+	</div>
+</form>

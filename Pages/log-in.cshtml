@@ -1,0 +1,29 @@
+﻿@page
+@model new_preject_ASP.net.Pages.Log_inModel
+@{
+}
+@if (Model.errorMessage.Length > 0)
+{
+	<div class=" alert alert-warning alert-dismissible fade show " role="alert">
+		<strong> @Model.errorMessage</strong>
+
+		<button type="button" class=" btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+	</div>
+}
+
+<form class="s_form" action="post">
+	<div class="headding">
+		<img src="~/images/robokids.png" />
+		<h2> Log into your account</h2>
+
+	</div>
+	<div class="boidata">
+		<label class="form-label">Email</label><br>
+		<input class="form-input" type="email" placeholder="Enter Your Email" required name="Email" value="@Model.logininfo.Email"><br>
+		<label class="form-label">Password</label><br>
+		<input class="form-input" type="password" placeholder="Enter Your password" required name="Password" value="@Model.logininfo.Password><br>
+	</div>
+	<div class="battan">
+		<button type="submit">Log in</button>
+	</div>
+</form>

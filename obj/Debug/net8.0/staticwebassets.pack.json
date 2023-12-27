@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\images\\Robokids.png",
+      "PackagePath": "staticwebassets\\images\\Robokids.png"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\images\\Robokids_banner.png",
+      "PackagePath": "staticwebassets\\images\\Robokids_banner.png"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\images\\Robokids_banner2 - Copy.png",
+      "PackagePath": "staticwebassets\\images\\Robokids_banner2 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\images\\book.jpg",
+      "PackagePath": "staticwebassets\\images\\book.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\images\\fotphoto.png",
+      "PackagePath": "staticwebassets\\images\\fotphoto.png"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\images\\lang.jpg",
+      "PackagePath": "staticwebassets\\images\\lang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\images\\latu.jpg",
+      "PackagePath": "staticwebassets\\images\\latu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\images\\robo.jpg",
+      "PackagePath": "staticwebassets\\images\\robo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khano\\OneDrive\\Desktop\\ASP.net data\\new preject ASP.net\\new preject ASP.net\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.new preject ASP.net.props",
+      "PackagePath": "build\\new preject ASP.net.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.new preject ASP.net.props",
+      "PackagePath": "buildMultiTargeting\\new preject ASP.net.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.new preject ASP.net.props",
+      "PackagePath": "buildTransitive\\new preject ASP.net.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.new preject ASP.net.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

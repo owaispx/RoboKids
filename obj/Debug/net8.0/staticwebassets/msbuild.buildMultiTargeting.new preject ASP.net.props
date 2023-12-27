@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\new preject ASP.net.props" />
+</Project>
